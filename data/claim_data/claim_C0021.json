@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0021",
+  "claim_amount": 18133.17,
+  "accident_type": "repetitive strain injury",
+  "approved": 0,
+  "claimant_name": "Matthew Booth",
+  "claimant_id": 19,
+  "assigned_agent": "Caitlin Kelly",
+  "assigned_agent_id": 16,
+  "close_agent": "Zachary King",
+  "close_agent_id": 8,
+  "filed_on": "2024-08-09"
+}

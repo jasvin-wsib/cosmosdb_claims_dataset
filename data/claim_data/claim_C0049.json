@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0049",
+  "claim_amount": 21602.8,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Ruth Maldonado",
+  "claimant_id": 46,
+  "assigned_agent": "Joshua Strong",
+  "assigned_agent_id": 8,
+  "close_agent": "Michelle Collins MD",
+  "close_agent_id": 16,
+  "filed_on": "2021-02-14"
+}

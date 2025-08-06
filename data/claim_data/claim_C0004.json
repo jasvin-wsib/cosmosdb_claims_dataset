@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0004",
+  "claim_amount": 49068.95,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Heidi Woods",
+  "claimant_id": 3,
+  "assigned_agent": "Alexandria Jackson",
+  "assigned_agent_id": 4,
+  "close_agent": "Scott Clark",
+  "close_agent_id": 4,
+  "filed_on": "2023-12-21"
+}

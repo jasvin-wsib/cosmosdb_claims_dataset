@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0011",
+  "claim_amount": 7634.18,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Robert Brown DDS",
+  "claimant_id": 10,
+  "assigned_agent": "Alexandria Jackson",
+  "assigned_agent_id": 4,
+  "close_agent": "Wendy Jones",
+  "close_agent_id": 10,
+  "filed_on": "2023-12-09"
+}

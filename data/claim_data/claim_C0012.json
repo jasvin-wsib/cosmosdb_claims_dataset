@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0012",
+  "claim_amount": 13922.51,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Richard Munoz",
+  "claimant_id": 11,
+  "assigned_agent": "Makayla Galloway",
+  "assigned_agent_id": 7,
+  "close_agent": "Zachary King",
+  "close_agent_id": 8,
+  "filed_on": "2023-12-26"
+}

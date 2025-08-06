@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0081",
+  "claim_amount": 13064.95,
+  "accident_type": "overexertion",
+  "approved": 1,
+  "claimant_name": "Shannon White PhD",
+  "claimant_id": 78,
+  "assigned_agent": "Scott Clark",
+  "assigned_agent_id": 11,
+  "close_agent": "Makayla Galloway",
+  "close_agent_id": 11,
+  "filed_on": "2020-09-21"
+}

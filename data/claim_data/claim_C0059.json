@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0059",
+  "claim_amount": 6094.4,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Charles Graham",
+  "claimant_id": 56,
+  "assigned_agent": "Caitlin Kelly",
+  "assigned_agent_id": 16,
+  "close_agent": "Ruth Montgomery",
+  "close_agent_id": 21,
+  "filed_on": "2023-07-04"
+}

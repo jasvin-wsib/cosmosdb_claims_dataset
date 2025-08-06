@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0042",
+  "claim_amount": 27084.24,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Deborah Hopkins",
+  "claimant_id": 39,
+  "assigned_agent": "Julia Cruz",
+  "assigned_agent_id": 9,
+  "close_agent": "Amanda Fowler",
+  "close_agent_id": 15,
+  "filed_on": "2022-04-23"
+}

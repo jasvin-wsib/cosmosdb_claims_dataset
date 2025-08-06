@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0062",
+  "claim_amount": 21144.1,
+  "accident_type": "overexertion",
+  "approved": 0,
+  "claimant_name": "Jasmine Rose",
+  "claimant_id": 59,
+  "assigned_agent": "Amanda Fowler",
+  "assigned_agent_id": 13,
+  "close_agent": "Joshua Strong",
+  "close_agent_id": 5,
+  "filed_on": "2020-12-15"
+}

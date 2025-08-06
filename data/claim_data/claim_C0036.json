@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0036",
+  "claim_amount": 7258.47,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Derek Barnes",
+  "claimant_id": 34,
+  "assigned_agent": "Makayla Galloway",
+  "assigned_agent_id": 7,
+  "close_agent": "Wendy Jones",
+  "close_agent_id": 10,
+  "filed_on": "2024-10-16"
+}

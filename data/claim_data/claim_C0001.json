@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0001",
+  "claim_amount": 19796.25,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Christine Green",
+  "claimant_id": 1,
+  "assigned_agent": "Amber Benjamin",
+  "assigned_agent_id": 1,
+  "close_agent": "Aaron Santos",
+  "close_agent_id": 1,
+  "filed_on": "2020-10-19"
+}

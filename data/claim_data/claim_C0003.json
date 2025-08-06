@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0003",
+  "claim_amount": 11712.22,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Paul Grant",
+  "claimant_id": 2,
+  "assigned_agent": "Zachary King",
+  "assigned_agent_id": 3,
+  "close_agent": "Kevin Green",
+  "close_agent_id": 3,
+  "filed_on": "2021-11-13"
+}

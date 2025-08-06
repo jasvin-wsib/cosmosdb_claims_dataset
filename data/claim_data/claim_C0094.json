@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0094",
+  "claim_amount": 33188.02,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Sean Dawson",
+  "claimant_id": 91,
+  "assigned_agent": "Amber Benjamin",
+  "assigned_agent_id": 1,
+  "close_agent": "Steven Burton",
+  "close_agent_id": 2,
+  "filed_on": "2021-07-02"
+}

@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0043",
+  "claim_amount": 43380.67,
+  "accident_type": "overexertion",
+  "approved": 1,
+  "claimant_name": "Brooke Campbell",
+  "claimant_id": 40,
+  "assigned_agent": "Ruth Montgomery",
+  "assigned_agent_id": 24,
+  "close_agent": "Makayla Galloway",
+  "close_agent_id": 11,
+  "filed_on": "2021-02-12"
+}

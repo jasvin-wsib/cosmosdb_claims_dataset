@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0034",
+  "claim_amount": 47353.22,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Kimberly Holden",
+  "claimant_id": 32,
+  "assigned_agent": "Joshua Strong",
+  "assigned_agent_id": 8,
+  "close_agent": "Jennifer Harmon",
+  "close_agent_id": 6,
+  "filed_on": "2024-12-11"
+}

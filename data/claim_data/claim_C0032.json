@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0032",
+  "claim_amount": 18486.06,
+  "accident_type": "overexertion",
+  "approved": 0,
+  "claimant_name": "Chad Floyd",
+  "claimant_id": 30,
+  "assigned_agent": "Makayla Galloway",
+  "assigned_agent_id": 7,
+  "close_agent": "Kevin Green",
+  "close_agent_id": 3,
+  "filed_on": "2023-10-19"
+}

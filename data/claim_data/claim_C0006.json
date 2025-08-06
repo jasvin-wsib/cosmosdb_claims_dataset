@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0006",
+  "claim_amount": 23220.85,
+  "accident_type": "overexertion",
+  "approved": 0,
+  "claimant_name": "Shawna Collins",
+  "claimant_id": 5,
+  "assigned_agent": "Lynn Moyer",
+  "assigned_agent_id": 6,
+  "close_agent": "Jennifer Harmon",
+  "close_agent_id": 6,
+  "filed_on": "2020-12-26"
+}

@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0050",
+  "claim_amount": 36199.05,
+  "accident_type": "repetitive strain injury",
+  "approved": 0,
+  "claimant_name": "Charles Michael",
+  "claimant_id": 47,
+  "assigned_agent": "Steven Burton",
+  "assigned_agent_id": 12,
+  "close_agent": "Dr. Amanda Marshall",
+  "close_agent_id": 22,
+  "filed_on": "2025-04-20"
+}

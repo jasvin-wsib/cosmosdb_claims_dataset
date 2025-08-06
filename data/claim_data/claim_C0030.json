@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0030",
+  "claim_amount": 6472.88,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Jeremy Gonzalez",
+  "claimant_id": 28,
+  "assigned_agent": "Amanda Fowler",
+  "assigned_agent_id": 13,
+  "close_agent": "Alexandria Jackson",
+  "close_agent_id": 19,
+  "filed_on": "2022-04-28"
+}

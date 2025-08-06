@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0069",
+  "claim_amount": 10975.63,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Billy Thompson",
+  "claimant_id": 66,
+  "assigned_agent": "Tyler Castaneda",
+  "assigned_agent_id": 25,
+  "close_agent": "Ruth Montgomery",
+  "close_agent_id": 21,
+  "filed_on": "2025-02-15"
+}

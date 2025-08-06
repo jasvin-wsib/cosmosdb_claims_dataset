@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0031",
+  "claim_amount": 29482.88,
+  "accident_type": "slip and fall",
+  "approved": 0,
+  "claimant_name": "Randy Franco",
+  "claimant_id": 29,
+  "assigned_agent": "Joshua Strong",
+  "assigned_agent_id": 8,
+  "close_agent": "Alexandria Jackson",
+  "close_agent_id": 19,
+  "filed_on": "2024-11-03"
+}

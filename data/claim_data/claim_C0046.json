@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0046",
+  "claim_amount": 6517.39,
+  "accident_type": "repetitive strain injury",
+  "approved": 0,
+  "claimant_name": "Joseph Shepherd",
+  "claimant_id": 43,
+  "assigned_agent": "Jennifer Harmon",
+  "assigned_agent_id": 21,
+  "close_agent": "Kevin Green",
+  "close_agent_id": 3,
+  "filed_on": "2023-01-18"
+}

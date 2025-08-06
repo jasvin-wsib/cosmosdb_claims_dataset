@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0020",
+  "claim_amount": 26659.75,
+  "accident_type": "overexertion",
+  "approved": 0,
+  "claimant_name": "Richard Munoz",
+  "claimant_id": 11,
+  "assigned_agent": "Lynn Moyer",
+  "assigned_agent_id": 6,
+  "close_agent": "Makayla Galloway",
+  "close_agent_id": 11,
+  "filed_on": "2023-03-29"
+}

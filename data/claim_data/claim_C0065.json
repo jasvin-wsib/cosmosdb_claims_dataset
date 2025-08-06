@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0065",
+  "claim_amount": 30987.25,
+  "accident_type": "slip and fall",
+  "approved": 0,
+  "claimant_name": "Dustin Flores",
+  "claimant_id": 62,
+  "assigned_agent": "William Nunez",
+  "assigned_agent_id": 23,
+  "close_agent": "Dr. Amanda Marshall",
+  "close_agent_id": 22,
+  "filed_on": "2023-02-06"
+}

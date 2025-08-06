@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0013",
+  "claim_amount": 14095.8,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Jeffrey Ward",
+  "claimant_id": 12,
+  "assigned_agent": "Julia Cruz",
+  "assigned_agent_id": 9,
+  "close_agent": "Makayla Galloway",
+  "close_agent_id": 11,
+  "filed_on": "2023-04-06"
+}

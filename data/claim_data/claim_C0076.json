@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0076",
+  "claim_amount": 34564.93,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Thomas Alvarez",
+  "claimant_id": 73,
+  "assigned_agent": "Jennifer Harmon",
+  "assigned_agent_id": 21,
+  "close_agent": "Lisa Bennett",
+  "close_agent_id": 9,
+  "filed_on": "2023-07-27"
+}

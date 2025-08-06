@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0092",
+  "claim_amount": 45113.09,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Richard Williams",
+  "claimant_id": 89,
+  "assigned_agent": "Lisa Garcia",
+  "assigned_agent_id": 20,
+  "close_agent": "Dr. Amanda Marshall",
+  "close_agent_id": 22,
+  "filed_on": "2023-02-27"
+}

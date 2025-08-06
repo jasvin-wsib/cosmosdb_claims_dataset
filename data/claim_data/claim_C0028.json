@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0028",
+  "claim_amount": 20614.81,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Zachary Smith",
+  "claimant_id": 26,
+  "assigned_agent": "Makayla Galloway",
+  "assigned_agent_id": 7,
+  "close_agent": "Julia Cruz",
+  "close_agent_id": 18,
+  "filed_on": "2020-08-11"
+}

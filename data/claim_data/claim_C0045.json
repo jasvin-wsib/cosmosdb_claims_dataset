@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0045",
+  "claim_amount": 3286.16,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Devin James",
+  "claimant_id": 42,
+  "assigned_agent": "William Nunez",
+  "assigned_agent_id": 23,
+  "close_agent": "Steven Burton",
+  "close_agent_id": 2,
+  "filed_on": "2022-10-29"
+}

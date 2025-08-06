@@ -1,0 +1,133 @@
+from gremlin_python.structure.graph import Graph
+from gremlin_python.driver.driver_remote_connection import DriverRemoteConnection
+from gremlin_python.process.graph_traversal import __  # anonymous traversal helpers
+
+def connect_claimants_to_claims():
+    graph = Graph()
+    connection = DriverRemoteConnection('ws://localhost:8182/gremlin', 'g')
+    g = graph.traversal().withRemote(connection)
+
+    try:
+        # Get claims with claim_id, claimant_id, and the vertex itself
+        claims = g.V().hasLabel('claim').project('claim_id', 'claimant_id', 'claim_vertex') \
+                      .by('claim_id') \
+                      .by('claimant_id') \
+                      .by(__.identity()) \
+                      .toList()
+
+        for c in claims:
+            claim_id = c['claim_id']
+            claimant_id = str(c['claimant_id'])  # Cast to string here
+            claim_vertex = c['claim_vertex']
+
+            # Find claimant vertex by claimant_id (as string)
+            claimant_vertices = g.V().hasLabel('claimant').has('claimant_id', claimant_id).toList()
+            if not claimant_vertices:
+                print(f"Claimant vertex with claimant_id {claimant_id} not found for claim {claim_id}")
+                continue
+
+            claimant_vertex = claimant_vertices[0]
+
+            # Check if 'filed' edge exists from claimant to claim
+            edge_exists = g.V(claimant_vertex.id).outE('filed').where(__.inV().hasId(claim_vertex.id)).hasNext()
+
+            if not edge_exists:
+                # Create the 'filed' edge
+                g.V(claimant_vertex.id).addE('filed').to(__.V(claim_vertex.id)).next()
+                print(f"Created 'filed' edge from claimant {claimant_id} to claim {claim_id}")
+            else:
+                print(f"'filed' edge already exists from claimant {claimant_id} to claim {claim_id}")
+
+    finally:
+        connection.close()
+
+def connect_claims_to_assigned_agent():
+    graph = Graph()
+    connection = DriverRemoteConnection('ws://localhost:8182/gremlin', 'g')
+    g = graph.traversal().withRemote(connection)
+
+    try:
+        # Get claims with assigned_agent_id and vertex itself
+        claims = g.V().hasLabel('claim').project('claim_id', 'assigned_agent_id', 'claim_vertex') \
+                  .by('claim_id') \
+                  .by('assigned_agent_id') \
+                  .by(__.identity()) \
+                  .toList()
+
+        for c in claims:
+            claim_id = c['claim_id']
+            assigned_agent_id = c['assigned_agent_id']
+
+            if assigned_agent_id is None:
+                print(f"Claim {claim_id} has no assigned_agent_id")
+                continue
+
+            assigned_agent_id = str(assigned_agent_id)  # Cast to string here
+            claim_vertex = c['claim_vertex']
+
+            # Find agent vertex by agent_id (string)
+            agent_vertices = g.V().hasLabel('agent').has('agent_id', assigned_agent_id).toList()
+            if not agent_vertices:
+                print(f"Agent vertex with agent_id {assigned_agent_id} not found for claim {claim_id}")
+                continue
+
+            agent_vertex = agent_vertices[0]
+
+            # Check if assigned_to edge already exists from claim to agent
+            edge_exists = g.V(claim_vertex.id).outE('assigned_to').where(__.inV().hasId(agent_vertex.id)).hasNext()
+
+            if not edge_exists:
+                g.V(claim_vertex.id).addE('assigned_to').to(__.V(agent_vertex.id)).next()
+                print(f"Created 'assigned_to' edge from claim {claim_id} to agent {assigned_agent_id}")
+            else:
+                print(f"'assigned_to' edge already exists from claim {claim_id} to agent {assigned_agent_id}")
+
+    finally:
+        connection.close()
+
+def connect_claims_to_closing_agent():
+    graph = Graph()
+    connection = DriverRemoteConnection('ws://localhost:8182/gremlin', 'g')
+    g = graph.traversal().withRemote(connection)
+
+    try:
+        claims = g.V().hasLabel('claim').project('claim_id', 'close_agent_id', 'claim_vertex') \
+                  .by('claim_id') \
+                  .by('close_agent_id') \
+                  .by(__.identity()) \
+                  .toList()
+
+        for c in claims:
+            claim_id = c['claim_id']
+            close_agent_id = c['close_agent_id']
+
+            if close_agent_id is None:
+                print(f"Claim {claim_id} has no close_agent_id")
+                continue
+
+            close_agent_id = str(close_agent_id)  # Cast to string
+            claim_vertex = c['claim_vertex']
+
+            agent_vertices = g.V().hasLabel('agent').has('agent_id', close_agent_id).toList()
+            if not agent_vertices:
+                print(f"Agent vertex with agent_id {close_agent_id} not found for claim {claim_id}")
+                continue
+
+            agent_vertex = agent_vertices[0]
+
+            edge_exists = g.V(claim_vertex.id).outE('closed_by').where(__.inV().hasId(agent_vertex.id)).hasNext()
+
+            if not edge_exists:
+                g.V(claim_vertex.id).addE('closed_by').to(__.V(agent_vertex.id)).next()
+                print(f"Created 'closed_by' edge from claim {claim_id} to agent {close_agent_id}")
+            else:
+                print(f"'closed_by' edge already exists from claim {claim_id} to agent {close_agent_id}")
+
+    finally:
+        connection.close()
+
+
+if __name__ == '__main__':
+    connect_claimants_to_claims()
+    connect_claims_to_assigned_agent()
+    connect_claims_to_closing_agent()

@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0019",
+  "claim_amount": 19533.25,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Michael Walker",
+  "claimant_id": 18,
+  "assigned_agent": "Aaron Santos",
+  "assigned_agent_id": 15,
+  "close_agent": "Tina Pierce",
+  "close_agent_id": 12,
+  "filed_on": "2021-01-16"
+}

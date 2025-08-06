@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0022",
+  "claim_amount": 5441.02,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Ashley Hernandez",
+  "claimant_id": 20,
+  "assigned_agent": "Wendy Jones",
+  "assigned_agent_id": 17,
+  "close_agent": "Michelle Collins MD",
+  "close_agent_id": 16,
+  "filed_on": "2024-03-20"
+}

@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0077",
+  "claim_amount": 42360.29,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Jerry Nelson",
+  "claimant_id": 74,
+  "assigned_agent": "Wendy Jones",
+  "assigned_agent_id": 17,
+  "close_agent": "Lisa Bennett",
+  "close_agent_id": 9,
+  "filed_on": "2024-06-08"
+}

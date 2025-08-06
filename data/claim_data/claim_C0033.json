@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0033",
+  "claim_amount": 1956.36,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Kristen Mack",
+  "claimant_id": 31,
+  "assigned_agent": "Dr. Amanda Marshall",
+  "assigned_agent_id": 5,
+  "close_agent": "Tyler Castaneda",
+  "close_agent_id": 20,
+  "filed_on": "2025-07-17"
+}

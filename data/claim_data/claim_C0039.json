@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0039",
+  "claim_amount": 39830.11,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Jason Riley",
+  "claimant_id": 37,
+  "assigned_agent": "Joseph Haynes",
+  "assigned_agent_id": 22,
+  "close_agent": "Lynn Moyer",
+  "close_agent_id": 7,
+  "filed_on": "2023-04-11"
+}

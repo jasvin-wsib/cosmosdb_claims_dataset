@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0068",
+  "claim_amount": 21242.13,
+  "accident_type": "overexertion",
+  "approved": 0,
+  "claimant_name": "Andrew Smith",
+  "claimant_id": 65,
+  "assigned_agent": "Dr. Amanda Marshall",
+  "assigned_agent_id": 5,
+  "close_agent": "William Nunez",
+  "close_agent_id": 13,
+  "filed_on": "2025-06-08"
+}

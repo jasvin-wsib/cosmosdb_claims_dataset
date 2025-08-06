@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0066",
+  "claim_amount": 42087.38,
+  "accident_type": "overexertion",
+  "approved": 0,
+  "claimant_name": "Jordan Jimenez",
+  "claimant_id": 63,
+  "assigned_agent": "Lynn Moyer",
+  "assigned_agent_id": 6,
+  "close_agent": "Tyler Castaneda",
+  "close_agent_id": 20,
+  "filed_on": "2020-08-10"
+}

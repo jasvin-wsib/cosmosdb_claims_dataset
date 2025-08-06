@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0053",
+  "claim_amount": 40265.93,
+  "accident_type": "overexertion",
+  "approved": 0,
+  "claimant_name": "Heather Tucker",
+  "claimant_id": 50,
+  "assigned_agent": "Makayla Galloway",
+  "assigned_agent_id": 7,
+  "close_agent": "Lisa Bennett",
+  "close_agent_id": 9,
+  "filed_on": "2021-12-06"
+}

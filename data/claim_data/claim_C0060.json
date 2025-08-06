@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0060",
+  "claim_amount": 19006.28,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "Patricia Miller",
+  "claimant_id": 57,
+  "assigned_agent": "Makayla Galloway",
+  "assigned_agent_id": 7,
+  "close_agent": "Scott Clark",
+  "close_agent_id": 4,
+  "filed_on": "2023-05-18"
+}

@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0072",
+  "claim_amount": 49404.98,
+  "accident_type": "slip and fall",
+  "approved": 0,
+  "claimant_name": "Shawn Aguilar",
+  "claimant_id": 69,
+  "assigned_agent": "Joseph Haynes",
+  "assigned_agent_id": 22,
+  "close_agent": "Tyler Castaneda",
+  "close_agent_id": 20,
+  "filed_on": "2023-10-14"
+}

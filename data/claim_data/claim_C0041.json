@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0041",
+  "claim_amount": 28835.45,
+  "accident_type": "overexertion",
+  "approved": 0,
+  "claimant_name": "Alex Arias",
+  "claimant_id": 38,
+  "assigned_agent": "William Nunez",
+  "assigned_agent_id": 23,
+  "close_agent": "Amanda Fowler",
+  "close_agent_id": 15,
+  "filed_on": "2024-02-12"
+}

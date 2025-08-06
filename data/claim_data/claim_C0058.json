@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0058",
+  "claim_amount": 32504.84,
+  "accident_type": "repetitive strain injury",
+  "approved": 1,
+  "claimant_name": "James Baker",
+  "claimant_id": 55,
+  "assigned_agent": "William Nunez",
+  "assigned_agent_id": 23,
+  "close_agent": "Aaron Santos",
+  "close_agent_id": 1,
+  "filed_on": "2023-03-23"
+}

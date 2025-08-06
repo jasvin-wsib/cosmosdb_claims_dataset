@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0038",
+  "claim_amount": 42388.09,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Kevin Houston",
+  "claimant_id": 36,
+  "assigned_agent": "Zachary King",
+  "assigned_agent_id": 3,
+  "close_agent": "Aimee Williams",
+  "close_agent_id": 17,
+  "filed_on": "2020-10-31"
+}

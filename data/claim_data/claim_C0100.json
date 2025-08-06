@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0100",
+  "claim_amount": 37007.25,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Tammy White",
+  "claimant_id": 95,
+  "assigned_agent": "Kevin Green",
+  "assigned_agent_id": 10,
+  "close_agent": "Scott Clark",
+  "close_agent_id": 4,
+  "filed_on": "2024-12-15"
+}

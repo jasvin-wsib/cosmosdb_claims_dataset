@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0071",
+  "claim_amount": 30151.33,
+  "accident_type": "slip and fall",
+  "approved": 0,
+  "claimant_name": "Katelyn Bennett",
+  "claimant_id": 68,
+  "assigned_agent": "Wendy Jones",
+  "assigned_agent_id": 17,
+  "close_agent": "Wendy Jones",
+  "close_agent_id": 10,
+  "filed_on": "2025-07-04"
+}

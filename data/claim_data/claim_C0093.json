@@ -1,0 +1,13 @@
+{
+  "claim_id": "C0093",
+  "claim_amount": 9698.8,
+  "accident_type": "slip and fall",
+  "approved": 1,
+  "claimant_name": "Lisa Randolph",
+  "claimant_id": 90,
+  "assigned_agent": "Dr. Amanda Marshall",
+  "assigned_agent_id": 5,
+  "close_agent": "Alexandria Jackson",
+  "close_agent_id": 19,
+  "filed_on": "2023-10-20"
+}
