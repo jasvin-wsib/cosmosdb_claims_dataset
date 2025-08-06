@@ -6,9 +6,9 @@ Usage:
     (venv) $ python create_vertices.py
 
 Expect directories next to this script:
-    ./claim_data        <-- contains claim_<id>.json files (one JSON object per file)
-    ./claimant_data     <-- contains claimant_<id>.json files
-    ./agent_data        <-- contains agent_<id>.json files
+    ./data/claim_data        <-- contains claim_<id>.json files (one JSON object per file)
+    ./data/claimant_data     <-- contains claimant_<id>.json files
+    ./data/agent_data        <-- contains agent_<id>.json files
 """
 import json
 import os
@@ -20,10 +20,14 @@ from gremlin_python.process.graph_traversal import __
 from gremlin_python.process.traversal import Cardinality
 
 # ---- Config ----
-GREMLIN_WS = "ws://localhost:8182/gremlin"   # change if your server is elsewhere
+GREMLIN_WS = "ws://localhost:8182/gremlin"   # Gremlin server websocket URL; change if server location differs
 # ----------------
 
 def connect_to_gremlin_server(ws_url=GREMLIN_WS):
+    """
+    Connect to Gremlin server and return traversal source and connection.
+    This sets up communication with the graph database.
+    """
     graph = Graph()
     connection = DriverRemoteConnection(ws_url, 'g')
     g = graph.traversal().withRemote(connection)
@@ -31,15 +35,18 @@ def connect_to_gremlin_server(ws_url=GREMLIN_WS):
 
 def add_vertex(g, label="vertex", unique_key=None, **properties):
     """
-    Find-or-create a vertex by (label, unique_key) and set properties (Cardinality.single).
-    Coerces the unique_key value to string to avoid mismatched types between runs.
-    Also coerces any property ending with '_id' to string for consistency.
-    Returns the added/updated vertex (server vertex object).
+    Find existing or create new vertex identified by (label, unique_key).
+    Ensures unique vertices by this key, sets properties with single cardinality.
+    Converts IDs and unique_key values to strings for consistency.
+    Returns the vertex added or found.
     """
     if unique_key is None or unique_key not in properties:
         raise ValueError("You must provide unique_key and it must exist in properties")
-    # Coerce unique_key value to string for consistency
+
+    # Convert unique key value to string to avoid mismatches on repeated runs
     unique_val = str(properties[unique_key])
+
+    # Find vertex by label and unique key or create it if not found
     v = (
         g.V().has(label, unique_key, unique_val)
         .fold()
@@ -48,6 +55,8 @@ def add_vertex(g, label="vertex", unique_key=None, **properties):
             __.addV(label).property(unique_key, unique_val)
         )
     )
+
+    # Set all other properties on vertex, converting complex types to JSON strings
     for k, val in properties.items():
         if k == unique_key:
             continue
@@ -57,18 +66,22 @@ def add_vertex(g, label="vertex", unique_key=None, **properties):
             except Exception:
                 prop_val = str(val)
         else:
+            # Convert properties ending with '_id' to string for uniformity
             if k.endswith('_id'):
                 prop_val = str(val)
             else:
                 prop_val = val
         v = v.property(Cardinality.single, k, prop_val)
+
+    # Return the created or existing vertex
     return v.next()
 
 def load_vertices_from_dir(directory, g, label, unique_key, file_pattern="*.json"):
     """
-    Read each JSON file in `directory` matching file_pattern. Each file should
-    contain a single JSON object (a dict). Call add_vertex for each object.
-    Returns number of records processed.
+    Load all JSON files from given directory.
+    Each file should contain one JSON object or a list of objects.
+    For each object, add a vertex with the given label and unique key.
+    Returns count of vertices processed.
     """
     directory = os.path.abspath(directory)
     if not os.path.isdir(directory):
@@ -84,12 +97,14 @@ def load_vertices_from_dir(directory, g, label, unique_key, file_pattern="*.json
     count = 0
     for filepath in files:
         fname = os.path.basename(filepath)
+        # Skip hidden or non-JSON files
         if fname.startswith(".") or not fname.lower().endswith(".json"):
             continue
         try:
             with open(filepath, "r", encoding="utf-8") as f:
                 obj = json.load(f)
 
+            # Support both list of objects or single object JSON files
             if isinstance(obj, list):
                 for item in obj:
                     add_vertex(g, label=label, unique_key=unique_key, **item)
@@ -108,25 +123,35 @@ def load_vertices_from_dir(directory, g, label, unique_key, file_pattern="*.json
     return count
 
 def main():
+    # Determine absolute path to directories relative to this script
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Directories expected next to this script
+    # Define expected data directories
     claims_dir = os.path.join(script_dir, "data/claim_data")
     claimants_dir = os.path.join(script_dir, "data/claimant_data")
     agents_dir = os.path.join(script_dir, "data/agent_data")
 
     g, connection = None, None
     try:
+        # Connect to Gremlin server once
         g, connection = connect_to_gremlin_server()
+
+        # Load claim vertices from claim JSON files
         total = 0
         total += load_vertices_from_dir(claims_dir, g, label="claim", unique_key="claim_id")
+
+        # Load claimant vertices from claimant JSON files
         total += load_vertices_from_dir(claimants_dir, g, label="claimant", unique_key="claimant_name")
+
+        # Load agent vertices from agent JSON files
         total += load_vertices_from_dir(agents_dir, g, label="agent", unique_key="agent_id")
+
         print(f"[SUMMARY] Total vertices processed: {total}")
     except Exception as e:
         print(f"[FATAL] Exception during run: {e}")
         raise
     finally:
+        # Always close connection on exit
         if connection:
             try:
                 connection.close()
