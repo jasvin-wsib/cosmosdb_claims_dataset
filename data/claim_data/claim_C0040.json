@@ -3,11 +3,8 @@
   "claim_amount": 39732.04,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Zachary Smith",
-  "claimant_id": 26,
-  "assigned_agent": "Zachary King",
-  "assigned_agent_id": 3,
-  "close_agent": "Alexandria Jackson",
-  "close_agent_id": 19,
-  "filed_on": "2022-07-14"
+  "claimant_id": 40,
+  "assigned_agent_id": 8,
+  "close_agent_id": 18,
+  "filed_on": "2024-09-02"
 }

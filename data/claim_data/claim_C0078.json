@@ -3,11 +3,8 @@
   "claim_amount": 10298.86,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Jeremy King",
-  "claimant_id": 75,
-  "assigned_agent": "Julia Cruz",
-  "assigned_agent_id": 9,
-  "close_agent": "Michelle Collins MD",
-  "close_agent_id": 16,
-  "filed_on": "2023-11-07"
+  "claimant_id": 78,
+  "assigned_agent_id": 19,
+  "close_agent_id": 25,
+  "filed_on": "2021-09-24"
 }

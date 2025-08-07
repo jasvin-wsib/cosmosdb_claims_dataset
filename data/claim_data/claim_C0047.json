@@ -3,11 +3,8 @@
   "claim_amount": 30547.76,
   "accident_type": "slip and fall",
   "approved": 1,
-  "claimant_name": "Deanna Perry",
-  "claimant_id": 44,
-  "assigned_agent": "Aimee Williams",
-  "assigned_agent_id": 14,
-  "close_agent": "Ruth Montgomery",
-  "close_agent_id": 21,
-  "filed_on": "2024-10-28"
+  "claimant_id": 47,
+  "assigned_agent_id": 21,
+  "close_agent_id": 12,
+  "filed_on": "2023-05-07"
 }

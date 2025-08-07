@@ -3,11 +3,8 @@
   "claim_amount": 14511.41,
   "accident_type": "overexertion",
   "approved": 1,
-  "claimant_name": "Jose Tucker",
-  "claimant_id": 83,
-  "assigned_agent": "Lisa Garcia",
-  "assigned_agent_id": 20,
-  "close_agent": "Zachary King",
-  "close_agent_id": 8,
-  "filed_on": "2021-03-24"
+  "claimant_id": 86,
+  "assigned_agent_id": 21,
+  "close_agent_id": 3,
+  "filed_on": "2024-12-15"
 }

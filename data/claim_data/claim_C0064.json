@@ -3,11 +3,8 @@
   "claim_amount": 14922.41,
   "accident_type": "slip and fall",
   "approved": 1,
-  "claimant_name": "Wendy Hall",
-  "claimant_id": 61,
-  "assigned_agent": "Ruth Montgomery",
-  "assigned_agent_id": 24,
-  "close_agent": "Alexandria Jackson",
-  "close_agent_id": 19,
-  "filed_on": "2021-11-23"
+  "claimant_id": 64,
+  "assigned_agent_id": 23,
+  "close_agent_id": 14,
+  "filed_on": "2023-06-14"
 }

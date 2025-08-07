@@ -1,7 +1,7 @@
 {
-  "agent_name": "Joseph Haynes",
   "agent_id": 22,
-  "email": "joseph.haynes@insurancecorp.com",
-  "phone_number": "594-502-7920x93274",
-  "currently_active": true
+  "agent_name": "Anna Newman",
+  "email": "anna.newman@insurancecorp.com",
+  "phone_number": "6674768232",
+  "currently_active": false
 }

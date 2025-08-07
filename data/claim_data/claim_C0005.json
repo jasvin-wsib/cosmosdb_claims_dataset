@@ -3,11 +3,8 @@
   "claim_amount": 1666.51,
   "accident_type": "repetitive strain injury",
   "approved": 0,
-  "claimant_name": "Sarah Stokes",
-  "claimant_id": 4,
-  "assigned_agent": "Dr. Amanda Marshall",
-  "assigned_agent_id": 5,
-  "close_agent": "Joshua Strong",
-  "close_agent_id": 5,
-  "filed_on": "2022-08-08"
+  "claimant_id": 5,
+  "assigned_agent_id": 12,
+  "close_agent_id": 6,
+  "filed_on": "2021-12-14"
 }

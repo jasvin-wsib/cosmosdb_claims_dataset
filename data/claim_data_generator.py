@@ -3,7 +3,7 @@ import os
 from faker import Faker
 import random
 
-# Initialize Faker to generate fake names and dates
+# Initialize Faker to generate fake dates
 fake = Faker()
 
 # Get the directory path where this script is located
@@ -18,34 +18,17 @@ df = pd.read_csv(csv_path)
 # Take the first 100 rows as a subset to work with
 df_subset = df.head(100).copy()
 
-# If the "age" column exists, drop it from this subset
+# If the "age" column exists, drop it
 if "age" in df_subset.columns:
     df_subset.drop(columns=["age"], inplace=True)
 
-# Generate mostly unique claimant names with a few duplicates
-num_duplicates = 5
-unique_claimants = [fake.name() for _ in range(len(df_subset) - num_duplicates)]
-duplicates = random.sample(unique_claimants, num_duplicates)
-all_claimants = unique_claimants + duplicates
-random.shuffle(all_claimants)
-df_subset["claimant_name"] = all_claimants  # new snake_case column
+# Generate a unique numeric claimant ID for each row (1 to N)
+df_subset["claimant_id"] = range(1, len(df_subset) + 1)
 
-# Create a mapping of each unique claimant name to a unique integer ID starting from 1
-claimant_id_map = {name: idx+1 for idx, name in enumerate(df_subset["claimant_name"].unique())}
-df_subset["claimant_id"] = df_subset["claimant_name"].map(claimant_id_map)
-
-# Generate a list of 25 unique fake agent names
-unique_agents = [fake.name() for _ in range(25)]
-
-# Randomly assign one of these agents as the assigned agent for each row
-df_subset["assigned_agent"] = [random.choice(unique_agents) for _ in range(len(df_subset))]
-assigned_agent_id_map = {name: idx+1 for idx, name in enumerate(df_subset["assigned_agent"].unique())}
-df_subset["assigned_agent_id"] = df_subset["assigned_agent"].map(assigned_agent_id_map)
-
-# Randomly assign one of these agents as the close agent for each row
-df_subset["close_agent"] = [random.choice(unique_agents) for _ in range(len(df_subset))]
-close_agent_id_map = {name: idx+1 for idx, name in enumerate(df_subset["close_agent"].unique())}
-df_subset["close_agent_id"] = df_subset["close_agent"].map(close_agent_id_map)
+# Assign numeric agent IDs directly (without names)
+total_agents = 25
+df_subset["assigned_agent_id"] = [random.randint(1, total_agents) for _ in range(len(df_subset))]
+df_subset["close_agent_id"] = [random.randint(1, total_agents) for _ in range(len(df_subset))]
 
 # Add a filed_on column with fake dates within the last 5 years
 df_subset["filed_on"] = [fake.date_between(start_date="-5y", end_date="today").isoformat() for _ in range(len(df_subset))]
@@ -57,8 +40,8 @@ df_subset["accident_type"] = df_subset["accident_type"].replace({
     "workplace": "overexertion"
 })
 
-# Drop old column names if they exist
-for col in ["Claimant Name", "Claimant ID", "Assigned Agent", "Assigned Agent ID", "Close Agent", "Close Agent ID", "Filed On"]:
+# Drop any old-style column names if they exist
+for col in ["Claimant Name", "Claimant ID", "Assigned Agent", "Assigned Agent ID", "Close Agent", "Close Agent ID", "Filed On", "claimant_name"]:
     if col in df_subset.columns:
         df_subset.drop(columns=[col], inplace=True)
 
@@ -67,3 +50,5 @@ json_path = os.path.join(script_dir, "claim_data.json")
 
 # Save the dataframe subset as a JSON file with pretty indentation
 df_subset.to_json(json_path, orient="records", indent=2)
+
+print(f"Claim data saved to {json_path}")

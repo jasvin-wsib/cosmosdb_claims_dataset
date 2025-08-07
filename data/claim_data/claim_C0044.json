@@ -3,11 +3,8 @@
   "claim_amount": 20835.57,
   "accident_type": "repetitive strain injury",
   "approved": 0,
-  "claimant_name": "Kimberly Obrien",
-  "claimant_id": 41,
-  "assigned_agent": "Lynn Moyer",
-  "assigned_agent_id": 6,
-  "close_agent": "Wendy Jones",
-  "close_agent_id": 10,
-  "filed_on": "2021-08-03"
+  "claimant_id": 44,
+  "assigned_agent_id": 16,
+  "close_agent_id": 24,
+  "filed_on": "2022-10-15"
 }

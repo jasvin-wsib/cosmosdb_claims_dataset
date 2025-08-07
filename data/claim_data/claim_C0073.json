@@ -3,11 +3,8 @@
   "claim_amount": 2920.3,
   "accident_type": "overexertion",
   "approved": 1,
-  "claimant_name": "Tracy Torres",
-  "claimant_id": 70,
-  "assigned_agent": "Ruth Montgomery",
-  "assigned_agent_id": 24,
-  "close_agent": "Tyler Castaneda",
-  "close_agent_id": 20,
-  "filed_on": "2023-06-25"
+  "claimant_id": 73,
+  "assigned_agent_id": 10,
+  "close_agent_id": 8,
+  "filed_on": "2023-08-18"
 }

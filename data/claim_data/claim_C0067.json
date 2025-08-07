@@ -3,11 +3,8 @@
   "claim_amount": 21284.97,
   "accident_type": "overexertion",
   "approved": 0,
-  "claimant_name": "Erica Harper",
-  "claimant_id": 64,
-  "assigned_agent": "Kevin Green",
-  "assigned_agent_id": 10,
-  "close_agent": "Zachary King",
-  "close_agent_id": 8,
-  "filed_on": "2021-07-09"
+  "claimant_id": 67,
+  "assigned_agent_id": 16,
+  "close_agent_id": 20,
+  "filed_on": "2024-12-26"
 }

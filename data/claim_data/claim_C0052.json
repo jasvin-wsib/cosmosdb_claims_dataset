@@ -3,11 +3,8 @@
   "claim_amount": 36987.2,
   "accident_type": "overexertion",
   "approved": 1,
-  "claimant_name": "Brenda Vega",
-  "claimant_id": 49,
-  "assigned_agent": "Julia Cruz",
-  "assigned_agent_id": 9,
-  "close_agent": "Steven Burton",
-  "close_agent_id": 2,
-  "filed_on": "2023-12-17"
+  "claimant_id": 52,
+  "assigned_agent_id": 24,
+  "close_agent_id": 10,
+  "filed_on": "2024-08-24"
 }

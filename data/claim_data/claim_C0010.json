@@ -3,11 +3,8 @@
   "claim_amount": 47960.82,
   "accident_type": "overexertion",
   "approved": 0,
-  "claimant_name": "Mark Swanson",
-  "claimant_id": 9,
-  "assigned_agent": "Julia Cruz",
-  "assigned_agent_id": 9,
-  "close_agent": "Lisa Bennett",
-  "close_agent_id": 9,
-  "filed_on": "2025-01-16"
+  "claimant_id": 10,
+  "assigned_agent_id": 21,
+  "close_agent_id": 6,
+  "filed_on": "2020-11-20"
 }

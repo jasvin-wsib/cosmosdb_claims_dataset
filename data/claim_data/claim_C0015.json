@@ -3,11 +3,8 @@
   "claim_amount": 20175.57,
   "accident_type": "overexertion",
   "approved": 0,
-  "claimant_name": "Stephen Williamson",
-  "claimant_id": 14,
-  "assigned_agent": "Scott Clark",
-  "assigned_agent_id": 11,
-  "close_agent": "William Nunez",
-  "close_agent_id": 13,
-  "filed_on": "2022-05-19"
+  "claimant_id": 15,
+  "assigned_agent_id": 23,
+  "close_agent_id": 7,
+  "filed_on": "2023-09-27"
 }

@@ -3,11 +3,8 @@
   "claim_amount": 6101.35,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Mary Black",
-  "claimant_id": 13,
-  "assigned_agent": "Kevin Green",
-  "assigned_agent_id": 10,
-  "close_agent": "Tina Pierce",
-  "close_agent_id": 12,
-  "filed_on": "2020-11-23"
+  "claimant_id": 14,
+  "assigned_agent_id": 9,
+  "close_agent_id": 14,
+  "filed_on": "2025-06-15"
 }

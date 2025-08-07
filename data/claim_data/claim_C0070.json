@@ -3,11 +3,8 @@
   "claim_amount": 2591.01,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Mary Moreno",
-  "claimant_id": 67,
-  "assigned_agent": "Scott Clark",
-  "assigned_agent_id": 11,
-  "close_agent": "Aaron Santos",
-  "close_agent_id": 1,
-  "filed_on": "2021-10-04"
+  "claimant_id": 70,
+  "assigned_agent_id": 13,
+  "close_agent_id": 6,
+  "filed_on": "2021-09-28"
 }

@@ -3,11 +3,8 @@
   "claim_amount": 25401.43,
   "accident_type": "overexertion",
   "approved": 1,
-  "claimant_name": "Patricia Snyder",
-  "claimant_id": 7,
-  "assigned_agent": "Makayla Galloway",
-  "assigned_agent_id": 7,
-  "close_agent": "Steven Burton",
-  "close_agent_id": 2,
-  "filed_on": "2022-02-26"
+  "claimant_id": 8,
+  "assigned_agent_id": 1,
+  "close_agent_id": 17,
+  "filed_on": "2023-09-07"
 }

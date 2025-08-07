@@ -3,11 +3,8 @@
   "claim_amount": 47622.44,
   "accident_type": "overexertion",
   "approved": 0,
-  "claimant_name": "Shawn Nelson",
-  "claimant_id": 86,
-  "assigned_agent": "Zachary King",
-  "assigned_agent_id": 3,
-  "close_agent": "Caitlin Kelly",
-  "close_agent_id": 24,
-  "filed_on": "2021-11-18"
+  "claimant_id": 89,
+  "assigned_agent_id": 25,
+  "close_agent_id": 19,
+  "filed_on": "2021-12-05"
 }

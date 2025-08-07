@@ -3,11 +3,8 @@
   "claim_amount": 39800.11,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Robert Patterson",
-  "claimant_id": 17,
-  "assigned_agent": "Aimee Williams",
-  "assigned_agent_id": 14,
-  "close_agent": "Makayla Galloway",
-  "close_agent_id": 11,
-  "filed_on": "2023-06-23"
+  "claimant_id": 18,
+  "assigned_agent_id": 3,
+  "close_agent_id": 3,
+  "filed_on": "2024-11-10"
 }

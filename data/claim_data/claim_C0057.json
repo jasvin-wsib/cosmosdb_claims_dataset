@@ -3,11 +3,8 @@
   "claim_amount": 26270.86,
   "accident_type": "slip and fall",
   "approved": 1,
-  "claimant_name": "Holly White",
-  "claimant_id": 54,
-  "assigned_agent": "Lisa Bennett",
-  "assigned_agent_id": 18,
-  "close_agent": "Steven Burton",
-  "close_agent_id": 2,
-  "filed_on": "2022-09-10"
+  "claimant_id": 57,
+  "assigned_agent_id": 20,
+  "close_agent_id": 9,
+  "filed_on": "2023-04-20"
 }

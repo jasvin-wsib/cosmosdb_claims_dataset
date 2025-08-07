@@ -1,7 +1,7 @@
 {
-  "agent_name": "Tina Pierce",
   "agent_id": 2,
-  "email": "tina.pierce@insurancecorp.com",
-  "phone_number": "001-590-300-4790x6771",
-  "currently_active": false
+  "agent_name": "James White",
+  "email": "james.white@insurancecorp.com",
+  "phone_number": "664-590-9557",
+  "currently_active": true
 }

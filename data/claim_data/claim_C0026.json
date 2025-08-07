@@ -3,11 +3,8 @@
   "claim_amount": 48099.02,
   "accident_type": "repetitive strain injury",
   "approved": 0,
-  "claimant_name": "Brittany Woods",
-  "claimant_id": 24,
-  "assigned_agent": "Michelle Collins MD",
-  "assigned_agent_id": 19,
-  "close_agent": "Joseph Haynes",
-  "close_agent_id": 14,
-  "filed_on": "2024-12-16"
+  "claimant_id": 26,
+  "assigned_agent_id": 25,
+  "close_agent_id": 24,
+  "filed_on": "2020-08-17"
 }

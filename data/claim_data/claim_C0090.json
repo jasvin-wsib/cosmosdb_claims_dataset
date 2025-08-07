@@ -3,11 +3,8 @@
   "claim_amount": 34040.15,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Erin Lewis",
-  "claimant_id": 87,
-  "assigned_agent": "Dr. Amanda Marshall",
-  "assigned_agent_id": 5,
-  "close_agent": "Steven Burton",
-  "close_agent_id": 2,
-  "filed_on": "2024-11-28"
+  "claimant_id": 90,
+  "assigned_agent_id": 13,
+  "close_agent_id": 15,
+  "filed_on": "2023-12-30"
 }

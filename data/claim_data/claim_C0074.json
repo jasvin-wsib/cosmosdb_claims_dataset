@@ -3,11 +3,8 @@
   "claim_amount": 41391.06,
   "accident_type": "overexertion",
   "approved": 0,
-  "claimant_name": "Jennifer Wilcox",
-  "claimant_id": 71,
-  "assigned_agent": "Alexandria Jackson",
-  "assigned_agent_id": 4,
-  "close_agent": "Kevin Green",
-  "close_agent_id": 3,
-  "filed_on": "2020-10-13"
+  "claimant_id": 74,
+  "assigned_agent_id": 3,
+  "close_agent_id": 21,
+  "filed_on": "2020-12-03"
 }

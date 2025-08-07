@@ -3,11 +3,8 @@
   "claim_amount": 27305.9,
   "accident_type": "slip and fall",
   "approved": 1,
-  "claimant_name": "Melanie Smith",
-  "claimant_id": 23,
-  "assigned_agent": "Zachary King",
+  "claimant_id": 25,
   "assigned_agent_id": 3,
-  "close_agent": "Joseph Haynes",
-  "close_agent_id": 14,
-  "filed_on": "2021-01-02"
+  "close_agent_id": 17,
+  "filed_on": "2024-10-09"
 }

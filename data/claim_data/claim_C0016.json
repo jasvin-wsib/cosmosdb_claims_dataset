@@ -3,11 +3,8 @@
   "claim_amount": 32721.7,
   "accident_type": "repetitive strain injury",
   "approved": 0,
-  "claimant_name": "Angela Hogan",
-  "claimant_id": 15,
-  "assigned_agent": "Steven Burton",
-  "assigned_agent_id": 12,
-  "close_agent": "Joseph Haynes",
-  "close_agent_id": 14,
-  "filed_on": "2024-01-26"
+  "claimant_id": 16,
+  "assigned_agent_id": 19,
+  "close_agent_id": 4,
+  "filed_on": "2024-06-05"
 }

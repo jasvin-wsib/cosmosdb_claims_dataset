@@ -1,7 +1,7 @@
 {
-  "agent_name": "Joshua Strong",
   "agent_id": 8,
-  "email": "joshua.strong@insurancecorp.com",
-  "phone_number": "+1-298-265-5115",
-  "currently_active": false
+  "agent_name": "Tanner Higgins",
+  "email": "tanner.higgins@insurancecorp.com",
+  "phone_number": "831-563-0443",
+  "currently_active": true
 }

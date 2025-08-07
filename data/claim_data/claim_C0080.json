@@ -3,11 +3,8 @@
   "claim_amount": 35745.11,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Meredith Davis",
-  "claimant_id": 77,
-  "assigned_agent": "Amanda Fowler",
-  "assigned_agent_id": 13,
-  "close_agent": "Wendy Jones",
-  "close_agent_id": 10,
-  "filed_on": "2024-02-28"
+  "claimant_id": 80,
+  "assigned_agent_id": 24,
+  "close_agent_id": 6,
+  "filed_on": "2023-01-19"
 }

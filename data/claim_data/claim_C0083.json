@@ -3,11 +3,8 @@
   "claim_amount": 5725.13,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Amy Gamble",
-  "claimant_id": 80,
-  "assigned_agent": "Makayla Galloway",
-  "assigned_agent_id": 7,
-  "close_agent": "Alexandria Jackson",
-  "close_agent_id": 19,
-  "filed_on": "2023-08-26"
+  "claimant_id": 83,
+  "assigned_agent_id": 12,
+  "close_agent_id": 15,
+  "filed_on": "2021-10-27"
 }

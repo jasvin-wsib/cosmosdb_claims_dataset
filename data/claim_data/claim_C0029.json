@@ -3,11 +3,8 @@
   "claim_amount": 12799.94,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Billy Short",
-  "claimant_id": 27,
-  "assigned_agent": "Aimee Williams",
-  "assigned_agent_id": 14,
-  "close_agent": "Zachary King",
-  "close_agent_id": 8,
-  "filed_on": "2024-09-15"
+  "claimant_id": 29,
+  "assigned_agent_id": 10,
+  "close_agent_id": 11,
+  "filed_on": "2023-04-06"
 }

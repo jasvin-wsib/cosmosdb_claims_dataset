@@ -3,11 +3,8 @@
   "claim_amount": 19343.55,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Daniel Mckenzie",
-  "claimant_id": 8,
-  "assigned_agent": "Joshua Strong",
-  "assigned_agent_id": 8,
-  "close_agent": "Zachary King",
-  "close_agent_id": 8,
-  "filed_on": "2025-03-18"
+  "claimant_id": 9,
+  "assigned_agent_id": 17,
+  "close_agent_id": 9,
+  "filed_on": "2024-11-15"
 }

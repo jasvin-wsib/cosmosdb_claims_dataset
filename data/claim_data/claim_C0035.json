@@ -3,11 +3,8 @@
   "claim_amount": 17950.42,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Amanda Zuniga",
-  "claimant_id": 33,
-  "assigned_agent": "Jennifer Harmon",
-  "assigned_agent_id": 21,
-  "close_agent": "Julia Cruz",
-  "close_agent_id": 18,
-  "filed_on": "2020-10-23"
+  "claimant_id": 35,
+  "assigned_agent_id": 24,
+  "close_agent_id": 3,
+  "filed_on": "2025-05-27"
 }

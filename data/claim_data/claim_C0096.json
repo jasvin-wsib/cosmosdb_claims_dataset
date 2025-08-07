@@ -3,11 +3,8 @@
   "claim_amount": 42907.01,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Abigail Peters",
-  "claimant_id": 92,
-  "assigned_agent": "Julia Cruz",
-  "assigned_agent_id": 9,
-  "close_agent": "Michelle Collins MD",
-  "close_agent_id": 16,
-  "filed_on": "2024-10-13"
+  "claimant_id": 96,
+  "assigned_agent_id": 18,
+  "close_agent_id": 19,
+  "filed_on": "2022-12-26"
 }

@@ -2,7 +2,6 @@ import pandas as pd
 import os
 from faker import Faker
 import random
-import re
 
 # Initialize Faker
 fake = Faker()
@@ -16,31 +15,28 @@ claim_data_path = os.path.join(script_dir, "claim_data.json")
 # Load the claims data
 df = pd.read_json(claim_data_path)
 
-# Combine assigned_agent and close_agent, and extract unique names
-assigned_agents = df["assigned_agent"].unique()
-close_agents = df["close_agent"].unique()
-all_agents = pd.unique(pd.Series(list(assigned_agents) + list(close_agents)))
+# Combine assigned_agent_id and close_agent_id to extract all unique agent IDs
+all_agent_ids = pd.unique(pd.concat([df["assigned_agent_id"], df["close_agent_id"]]))
 
-# Helper to clean and convert name to email format
-def name_to_email(name):
-    # Remove non-alphanumeric characters and split into parts
-    parts = re.sub(r"[^a-zA-Z\s]", "", name).strip().lower().split()
-    if len(parts) >= 2:
-        first, last = parts[0], parts[-1]
-        return f"{first}.{last}@insurancecorp.com"
-    else:
-        return f"{parts[0]}@insurancecorp.com"
-
-# Create agent info records
+# Create a unique name for each ID using Faker
 agent_info = []
-for idx, name in enumerate(all_agents, start=1):
-    email = name_to_email(name)
+used_names = set()
+
+for agent_id in all_agent_ids:
+    # Generate a unique name (ensure no duplicates)
+    while True:
+        name = fake.name()
+        if name not in used_names:
+            used_names.add(name)
+            break
+
+    email = f"{name.lower().replace(' ', '.')}@insurancecorp.com"
     phone = fake.phone_number()
-    is_active = random.choice([True, False])  # Randomly assign active status
+    is_active = random.choice([True, False])
 
     agent_info.append({
+        "agent_id": agent_id,
         "agent_name": name,
-        "agent_id": idx,
         "email": email,
         "phone_number": phone,
         "currently_active": is_active

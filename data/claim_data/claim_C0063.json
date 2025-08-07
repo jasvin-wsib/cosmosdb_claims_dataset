@@ -3,11 +3,8 @@
   "claim_amount": 17165.53,
   "accident_type": "slip and fall",
   "approved": 1,
-  "claimant_name": "Keith Price",
-  "claimant_id": 60,
-  "assigned_agent": "Kevin Green",
-  "assigned_agent_id": 10,
-  "close_agent": "Michelle Collins MD",
-  "close_agent_id": 16,
-  "filed_on": "2021-03-02"
+  "claimant_id": 63,
+  "assigned_agent_id": 4,
+  "close_agent_id": 17,
+  "filed_on": "2022-10-11"
 }

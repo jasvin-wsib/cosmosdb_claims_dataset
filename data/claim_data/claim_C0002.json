@@ -3,11 +3,8 @@
   "claim_amount": 46903.61,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Paul Grant",
   "claimant_id": 2,
-  "assigned_agent": "Tina Pierce",
-  "assigned_agent_id": 2,
-  "close_agent": "Steven Burton",
-  "close_agent_id": 2,
-  "filed_on": "2021-02-07"
+  "assigned_agent_id": 7,
+  "close_agent_id": 4,
+  "filed_on": "2021-10-10"
 }

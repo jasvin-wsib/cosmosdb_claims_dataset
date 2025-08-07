@@ -3,11 +3,8 @@
   "claim_amount": 27412.44,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Rodney Holmes",
-  "claimant_id": 52,
-  "assigned_agent": "Makayla Galloway",
-  "assigned_agent_id": 7,
-  "close_agent": "William Nunez",
-  "close_agent_id": 13,
-  "filed_on": "2024-04-26"
+  "claimant_id": 55,
+  "assigned_agent_id": 1,
+  "close_agent_id": 21,
+  "filed_on": "2021-09-26"
 }

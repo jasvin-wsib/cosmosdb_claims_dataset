@@ -3,11 +3,8 @@
   "claim_amount": 48357.87,
   "accident_type": "overexertion",
   "approved": 0,
-  "claimant_name": "Erica Harper",
-  "claimant_id": 64,
-  "assigned_agent": "Lynn Moyer",
-  "assigned_agent_id": 6,
-  "close_agent": "Tina Pierce",
-  "close_agent_id": 12,
-  "filed_on": "2024-01-29"
+  "claimant_id": 98,
+  "assigned_agent_id": 25,
+  "close_agent_id": 8,
+  "filed_on": "2020-10-28"
 }

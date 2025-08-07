@@ -3,11 +3,8 @@
   "claim_amount": 43517.66,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Keith Hughes",
-  "claimant_id": 6,
-  "assigned_agent": "Amber Benjamin",
-  "assigned_agent_id": 1,
-  "close_agent": "Lynn Moyer",
-  "close_agent_id": 7,
-  "filed_on": "2025-01-07"
+  "claimant_id": 7,
+  "assigned_agent_id": 25,
+  "close_agent_id": 8,
+  "filed_on": "2023-10-12"
 }

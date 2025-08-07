@@ -1,7 +1,7 @@
 {
-  "agent_name": "Steven Burton",
   "agent_id": 12,
-  "email": "steven.burton@insurancecorp.com",
-  "phone_number": "(349)765-5437",
-  "currently_active": true
+  "agent_name": "Brittany Avila",
+  "email": "brittany.avila@insurancecorp.com",
+  "phone_number": "001-808-624-1649x072",
+  "currently_active": false
 }

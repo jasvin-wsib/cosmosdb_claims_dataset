@@ -3,11 +3,8 @@
   "claim_amount": 3616.61,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Michelle Black",
-  "claimant_id": 35,
-  "assigned_agent": "Zachary King",
-  "assigned_agent_id": 3,
-  "close_agent": "Joshua Strong",
-  "close_agent_id": 5,
-  "filed_on": "2021-05-01"
+  "claimant_id": 37,
+  "assigned_agent_id": 23,
+  "close_agent_id": 12,
+  "filed_on": "2024-07-18"
 }

@@ -3,11 +3,8 @@
   "claim_amount": 43929.18,
   "accident_type": "overexertion",
   "approved": 0,
-  "claimant_name": "Larry Young",
-  "claimant_id": 58,
-  "assigned_agent": "Tyler Castaneda",
-  "assigned_agent_id": 25,
-  "close_agent": "Tyler Castaneda",
-  "close_agent_id": 20,
-  "filed_on": "2024-09-26"
+  "claimant_id": 61,
+  "assigned_agent_id": 13,
+  "close_agent_id": 2,
+  "filed_on": "2020-10-05"
 }

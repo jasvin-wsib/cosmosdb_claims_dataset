@@ -3,11 +3,8 @@
   "claim_amount": 40964.93,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Amanda Pugh",
-  "claimant_id": 94,
-  "assigned_agent": "Lisa Bennett",
-  "assigned_agent_id": 18,
-  "close_agent": "Joshua Strong",
-  "close_agent_id": 5,
-  "filed_on": "2023-07-12"
+  "claimant_id": 99,
+  "assigned_agent_id": 10,
+  "close_agent_id": 4,
+  "filed_on": "2023-03-03"
 }

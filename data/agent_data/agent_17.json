@@ -1,7 +1,7 @@
 {
-  "agent_name": "Wendy Jones",
   "agent_id": 17,
-  "email": "wendy.jones@insurancecorp.com",
-  "phone_number": "406-619-4990",
+  "agent_name": "Amy Boyle",
+  "email": "amy.boyle@insurancecorp.com",
+  "phone_number": "(779)232-8431x510",
   "currently_active": true
 }

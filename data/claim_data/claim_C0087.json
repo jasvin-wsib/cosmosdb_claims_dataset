@@ -3,11 +3,8 @@
   "claim_amount": 45639.5,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Melanie Hansen",
-  "claimant_id": 84,
-  "assigned_agent": "Joshua Strong",
-  "assigned_agent_id": 8,
-  "close_agent": "Wendy Jones",
-  "close_agent_id": 10,
-  "filed_on": "2021-05-28"
+  "claimant_id": 87,
+  "assigned_agent_id": 2,
+  "close_agent_id": 19,
+  "filed_on": "2025-02-21"
 }

@@ -3,11 +3,8 @@
   "claim_amount": 3798.91,
   "accident_type": "overexertion",
   "approved": 1,
-  "claimant_name": "Luke Phelps",
-  "claimant_id": 21,
-  "assigned_agent": "Lisa Bennett",
-  "assigned_agent_id": 18,
-  "close_agent": "Aimee Williams",
-  "close_agent_id": 17,
-  "filed_on": "2024-03-31"
+  "claimant_id": 23,
+  "assigned_agent_id": 9,
+  "close_agent_id": 8,
+  "filed_on": "2024-07-19"
 }

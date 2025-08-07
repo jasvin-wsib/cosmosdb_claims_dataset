@@ -3,11 +3,8 @@
   "claim_amount": 29101.86,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Nicole Bailey",
-  "claimant_id": 72,
-  "assigned_agent": "Lisa Bennett",
-  "assigned_agent_id": 18,
-  "close_agent": "Amanda Fowler",
-  "close_agent_id": 15,
-  "filed_on": "2022-12-17"
+  "claimant_id": 75,
+  "assigned_agent_id": 20,
+  "close_agent_id": 22,
+  "filed_on": "2024-11-02"
 }

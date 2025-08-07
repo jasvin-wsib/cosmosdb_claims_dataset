@@ -3,11 +3,8 @@
   "claim_amount": 47729.01,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Kimberly Obrien",
-  "claimant_id": 41,
-  "assigned_agent": "Joshua Strong",
-  "assigned_agent_id": 8,
-  "close_agent": "Lisa Garcia",
-  "close_agent_id": 25,
-  "filed_on": "2022-05-06"
+  "claimant_id": 95,
+  "assigned_agent_id": 5,
+  "close_agent_id": 4,
+  "filed_on": "2020-09-02"
 }

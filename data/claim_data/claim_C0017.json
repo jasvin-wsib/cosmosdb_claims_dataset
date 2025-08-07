@@ -3,11 +3,8 @@
   "claim_amount": 45507.18,
   "accident_type": "slip and fall",
   "approved": 0,
-  "claimant_name": "Derek Pham",
-  "claimant_id": 16,
-  "assigned_agent": "Amanda Fowler",
-  "assigned_agent_id": 13,
-  "close_agent": "Amanda Fowler",
-  "close_agent_id": 15,
-  "filed_on": "2023-02-22"
+  "claimant_id": 17,
+  "assigned_agent_id": 20,
+  "close_agent_id": 2,
+  "filed_on": "2023-10-09"
 }

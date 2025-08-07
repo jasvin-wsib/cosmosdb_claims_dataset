@@ -3,11 +3,8 @@
   "claim_amount": 28835.45,
   "accident_type": "overexertion",
   "approved": 0,
-  "claimant_name": "Alex Arias",
-  "claimant_id": 38,
-  "assigned_agent": "William Nunez",
-  "assigned_agent_id": 23,
-  "close_agent": "Amanda Fowler",
-  "close_agent_id": 15,
-  "filed_on": "2024-02-12"
+  "claimant_id": 41,
+  "assigned_agent_id": 9,
+  "close_agent_id": 21,
+  "filed_on": "2020-10-29"
 }

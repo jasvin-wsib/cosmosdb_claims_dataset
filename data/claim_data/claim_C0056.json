@@ -3,11 +3,8 @@
   "claim_amount": 22266.15,
   "accident_type": "repetitive strain injury",
   "approved": 1,
-  "claimant_name": "Ronald Watson",
-  "claimant_id": 53,
-  "assigned_agent": "Dr. Amanda Marshall",
-  "assigned_agent_id": 5,
-  "close_agent": "Amanda Fowler",
-  "close_agent_id": 15,
-  "filed_on": "2023-03-18"
+  "claimant_id": 56,
+  "assigned_agent_id": 21,
+  "close_agent_id": 17,
+  "filed_on": "2024-08-15"
 }
