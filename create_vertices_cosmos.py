@@ -4,7 +4,11 @@ import json
 import os
 import glob
 from dotenv import load_dotenv
+
+# client handles the connection to the Gremlin server
+# serializer converts Python objects to Gremlin's GraphSON format
 from gremlin_python.driver import client, serializer
+# 
 from gremlin_python.process.traversal import Cardinality
 
 # Load environment variables
@@ -28,22 +32,29 @@ def connect_to_cosmos():
     )
     return gremlin_client
 
+
+
+# Function to add a vertex to the Cosmos DB graph and checks for duplicates
 def add_vertex(client, label="vertex", unique_key=None, **properties):
+    # A unique key is required to identify the vertex and check for duplicates
     if unique_key is None or unique_key not in properties:
         raise ValueError("You must provide unique_key and it must exist in properties")
 
     unique_val = str(properties[unique_key])
+
+    # A partition key is required for Cosmos DB
     partition_val = properties.get(PARTITION_KEY)
     if not partition_val:
         raise ValueError(f"Partition key '{PARTITION_KEY}' must be set in each vertex")
 
+    # Creates a new vertex if it doesn't already exist
     gremlin_query = (
         f"g.V().has('{label}', '{unique_key}', '{unique_val}').fold().coalesce("
         f"unfold(), "
         f"addV('{label}').property('id', '{unique_val}')"
     )
 
-    # Add each property
+    # Add each property to the vertex
     for k, val in properties.items():
         if isinstance(val, (dict, list)):
             val = json.dumps(val)
@@ -53,6 +64,7 @@ def add_vertex(client, label="vertex", unique_key=None, **properties):
 
     gremlin_query += ")"
 
+    # Executes the Gremlin query to add the vertex
     try:
         result = client.submit(gremlin_query).all().result()
         return result
@@ -60,6 +72,9 @@ def add_vertex(client, label="vertex", unique_key=None, **properties):
         print(f"[ERROR] Vertex '{unique_val}' insertion failed: {e}")
         return None
 
+
+
+# Function to load vertices from a directory of local JSON files
 def load_vertices_from_dir(directory, client, label, unique_key, file_pattern="*.json"):
     directory = os.path.abspath(directory)
     if not os.path.isdir(directory):
